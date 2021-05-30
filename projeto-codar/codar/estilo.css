@@ -1,0 +1,324 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap');
+
+@font-face{
+    font-family: 'google', sans-serif;
+    src: url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;1,100;1,300;1,700&display=swap');
+}
+
+@font-face {
+    font-family: 'meio', sans-serif;
+    src: url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+}
+
+@font-face {
+    font-family: 'meio-bold', sans-serif ;
+    src: url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+}
+
+
+#menu ul{
+    display: inline;
+
+}
+
+ #login ul{
+    display: inline ;
+ }
+
+#login a{
+    text-decoration: none;
+    text-align: right;
+    margin-left: 350px;
+    font-size: 20pt;
+    color:white;
+    font-family: 'google', sans-serif;
+    margin-top: -15px;
+    background-color: #D6000D ;
+    padding: 15px 100px;
+    border-radius: 20px;
+    position: fixed;
+}
+
+#login a:hover {
+    background-color: rgb(19, 19, 19);
+    transition: 1s;
+}
+
+
+#menu a{
+    text-decoration: none;
+    text-align: right;
+    margin-left: -20px;
+    font-size: 20pt;
+    color: rgb(41, 41, 41);
+    font-family: 'google', sans-serif;
+    padding-left: 10px;
+    position: relative;
+}
+
+#menu a:hover {
+    color: #D6000D;
+    transition: 0.5s;
+}
+
+#menu-fixo {
+    background-color: #ffffff;
+    top: 0px;
+    left: 0px;
+    position: fixed;
+    width: 100%;
+    height: 150px;
+    box-shadow: rgba(36, 36, 36, 0.397) 1px 1px;
+}
+
+nav {
+    margin-left: 1009px;
+    padding-top: 30px;
+    margin-top: 30px;
+}
+
+#logo p{
+    margin-top: -55px;
+    font-size: 40pt ;
+    color: #D6000D;
+    margin-left: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    position: fixed;
+}
+
+#logo #ponto {
+    color: black;
+    margin-left: 190px;
+}
+
+#imagem img {
+    width: 500px;
+    background-size: 200px;
+    margin-top: 200px;
+    margin-left: 150px;
+    position: inherit;
+}
+
+#website h1{
+    font-family: 'meio', sans-serif;
+    font-size: 30pt;
+    margin-left: 885px;
+    margin-top: -390px;
+    position: inherit;
+    padding-bottom: 3px;
+}
+
+#website h2{
+    font-family: 'meio-bold', sans-serif;
+    font-size: 70pt;
+    color: #D6000D;
+    margin-left: 870px;
+    margin-top: 360px;
+    padding: 10px;
+    position: inherit;
+    width: 900px;
+}
+
+#website a:hover {
+    background-color: rgb(19, 19, 19);
+    transition: 1s;
+}
+
+#website a{
+    margin-left: 870px;
+    font-family: 'google', sans-serif;
+    font-size: 25pt ;
+    background-color: #D6000D;
+    padding: 20px 10px;
+    position: inherit;
+    border-radius: 20px;
+    margin-top: -35px;
+    margin-right: 410px;
+    color: white;
+    text-decoration: none;
+}
+
+#codigo img{
+    width:650px;
+    background-size: 200px;
+    margin-top: 300px;
+    margin-left: 900px;
+    position: inherit;
+}
+
+#texto ul{
+    margin-left: 190px;
+    margin-top: -500px;
+    list-style-image: url(lista-de-controle.png);
+    position: inherit; 
+}
+
+#texto li{
+    font-family: 'google', sans-serif;
+    font-size: 25pt;
+    padding: 2px 20px;
+    position: inherit;
+}
+
+#celular h4{
+    font-family: 'google', sans-serif;
+    font-size: 30pt;
+    margin-left: 190px;
+    margin-top: 100px;
+}
+
+
+#celular button{
+    background-color: #D6000D;
+    border: none;
+    color: white;
+    font-family: 'google', sans-serif;
+    font-size: 30px;
+    padding: 10px 40px;
+    border-radius: 20px;
+    height: 100px;
+}
+
+#celular input{
+    font-size: 30px;
+    background-color: rgb(241, 241, 241);
+    border-radius: 20px;
+    border: none;
+    height: 100px;
+    color: black;
+    padding-left: 15px;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+.avaliacao ul{
+    text-decoration: none;
+    background-color: rgb(241, 241, 241) ;
+    text-align: justify;
+    width: 400px;
+    padding: 60px;
+    margin-top: 200px;
+    margin-left: 150px;
+    font-family: 'google', sans-serif;
+    font-size: 20px;
+    list-style: none;
+    border-radius: 20px;
+    width: 600px;
+}
+
+.avaliacao li{
+    margin-left: 150px;
+}
+
+#usuario {
+    margin-left: 60px;
+    margin-bottom: -380px;
+    width: 140px;
+    background-size: 140px;
+}
+
+#usuariodois {
+    margin-left: 920px;
+    margin-top: -690px;
+    margin-bottom: 115px;
+    width: 140px;
+    background-size: 140px;
+}
+
+#rodape {
+    background-color: rgb(19, 19, 19);
+    height: 400px;
+    margin: 0px -8px -10px -8px ;
+    
+}
+
+#codar h1{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 50pt;
+    padding-top: 100px;
+    padding-left: 30px;
+}
+
+#codar h2{
+    color: white;
+    font-family: 'meio-bold', sans-serif;
+    width: 350px;
+    padding-left: 30px;
+    margin-top: -50px;
+}
+
+#sobre {
+    margin-left: 500px;
+    margin-top: -140px;
+}
+
+#sobre h1, h2{
+    color: white;
+    font-family: 'meio-bold', sans-serif;
+    width: 290px;
+    text-align: justify;
+}
+
+#sobre h1{
+    font-size: 25pt;
+}
+
+#contato h1{
+    color: white;
+    font-family: 'meio-bold', sans-serif;
+    margin-left: 900px;
+    margin-top: -150px;
+    font-size: 25pt;
+}
+
+#contato p{
+    color: white;
+    font-family: 'meio-bold', sans-serif;
+    margin-left: 900px;
+    margin-top: 20px;
+    font-size: 20pt;
+}
+
+#rede h1{
+    color: white;
+    font-family: 'meio-bold', sans-serif;
+    margin-left: 1300px;
+    margin-top: -240px;
+    font-size: 25pt;
+}
+
+#img {
+    background-size: 52px;
+    width: 52px;
+    padding: 20px;
+    
+}
+
+#img2 {
+    background-size: 52px;
+    width: 52px;
+    padding: 20px;
+}
+
+#img3 {
+    background-size: 52px;
+    width: 52px;
+    padding: 20px;
+    
+}
+
+#mover {
+    margin-left: 1280px;
+}
+
+
